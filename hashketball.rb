@@ -126,6 +126,7 @@ def game_hash
   }
 end
 # Write code here
+<<<<<<< HEAD
 def num_points_scored(search)
   game_hash.each do |team, team_info|
     team_info[:players].each do |player|
@@ -197,3 +198,5 @@ def big_shoe_rebounds
   end
   rebounds
 end
+=======
+>>>>>>> 0a17b0485d92dfaf927f843457599622d53cbf65
